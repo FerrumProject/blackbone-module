@@ -13,7 +13,7 @@ EXTERN_C DWORD __declspec(dllexport) pid(const wchar_t*);
 ```
 
 + Getting module address by name
-```
+```cpp
 EXTERN_C DWORD __declspec(dllexport) module_address(const wchar_t*, const wchar_t*);
 ```
 
